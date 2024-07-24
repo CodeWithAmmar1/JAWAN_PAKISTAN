@@ -9,5 +9,6 @@ void main() {
     "SATURDAY",
     "SUNDAY"
   ];
+
   print("********" + days[6] + "********");
 }
