@@ -7,6 +7,7 @@ void main() {
     'Sarah',
     'Tom'
   ];
+  print("list: $usersEligibility");
   // i am taking eligible as a false value
   usersEligibility.retainWhere((element) => element != "eligible");
   print("eligible list are: $usersEligibility");
