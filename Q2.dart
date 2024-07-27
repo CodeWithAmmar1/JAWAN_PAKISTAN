@@ -9,5 +9,5 @@ void main() {
   ];
   // i am taking eligible as a false value
   usersEligibility.retainWhere((element) => element != "eligible");
-  print(usersEligibility);
+  print("eligible list are: $usersEligibility");
 }
