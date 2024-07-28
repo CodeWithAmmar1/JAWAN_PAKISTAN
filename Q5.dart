@@ -3,9 +3,9 @@ void main() {
 
   print("Original List: $number");
 
-  print("positive number list ");
-  print(number.where((number) => number > 0));
-
-  print("negitive number list ");
+  print("negitive number ");
   print(number.where((number) => number < 0));
+
+  print("positive number list Or new list ");
+  print(number.where((number) => number > 0).toList());
 }
