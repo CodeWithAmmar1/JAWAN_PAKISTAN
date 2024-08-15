@@ -4,7 +4,7 @@ void main() {
     'Alice',
     'eligible',
     'Mike',
-    'Sarah',
+    'Sarah', 
     'Tom'
   ];
   print("list: $usersEligibility");
