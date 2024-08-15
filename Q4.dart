@@ -1,4 +1,4 @@
-void main() {
+void main() { 
   List<String> element = ["car", "apple", "mobile", "computer"];
   print("Reversed list");
   print(element.reversed.toList());
